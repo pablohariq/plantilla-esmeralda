@@ -86,7 +86,8 @@ ul{
 }
 #sec-contact ul li{
     list-style: none;
-    display: inline;
+    display: inline-flex;
+    align-items: center;
     margin: 10pt;
     font-weight: 300;
     font-size: 9pt
