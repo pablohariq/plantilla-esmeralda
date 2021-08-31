@@ -14,7 +14,6 @@ body{
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     width: 21.59cm;
-
 }
 
 h1{
@@ -81,7 +80,7 @@ ul{
     height: 120px;
     width: 120px;
     object-fit: cover;
-    
+    border: 1px #1F2937 solid;
 }
 
 .skill-tag{
@@ -112,6 +111,11 @@ ul{
     margin: auto;
     padding: 0;
 }
+#sec-contact ul{
+    margin: auto;
+    padding: 0;
+}
+
 #sec-contact ul li{
     list-style: none;
     display: inline-flex;
