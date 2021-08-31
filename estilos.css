@@ -1,0 +1,103 @@
+@page{
+    size: 21.59cm 27.94cm;
+    margin: 1.9cm, 1.9cm, 1.9cm, 1.9cm
+}
+@media print {
+    body{
+        width: 21.59cm;
+        height: 27.94cm;
+        margin: 19mm 19mm 19mm 19mm; 
+   } 
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    width: 21.59cm;
+
+}
+
+h1{
+    font-weight: 400;
+    font-size: 22pt;
+    margin-bottom: 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 18pt;
+    color: #6B7280;
+    margin: 0 auto;
+}
+
+p{
+    font-weight: 300;
+    font-size: 11pt;
+}
+
+ul{
+    list-style: none;
+}
+#sec-header{
+    display: inline-flex;
+    align-items: center;
+    height: 10%;
+    width: 21.59cm;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: black 1px solid;
+    display: inline-flex;
+    margin: 2%;
+}
+
+.skill-tag{
+    background: #10B981;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.skill-tag li {
+    float: left;
+}
+
+#sec-contact{
+    background-color: #E5E7EB;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#sec-contact{
+    margin: auto;
+    padding: 0;
+}
+#sec-contact ul li{
+    list-style: none;
+    display: inline;
+    margin: 10pt;
+    font-weight: 300;
+    font-size: 9pt
+}
+#sec-contact ul i{
+    font-size: 14pt;
+    padding-inline: 2pt;
+}
+
+#sec-skills ul li{
+    padding-inline: 8px;
+    margin: 5px;
+}
+
