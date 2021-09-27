@@ -84,7 +84,7 @@ ul{
 }
 
 .skill-tag{
-    background: #10B981;
+    background: #047857;
     border-radius: 3px;
     color: #FFFFFF;
     display: inline-block;
@@ -146,5 +146,7 @@ span{
 }
 
 .experiencia > li{
+    font-size: 10pt;
+    font-weight: 300;
     margin: 20px 0 20px 0;
 }
